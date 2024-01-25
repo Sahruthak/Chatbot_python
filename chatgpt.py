@@ -10,8 +10,6 @@ from nltk.stem import WordNetLemmatizer
 nltk.download('popular', quiet=True)
 nltk.download('punkt')
 nltk.download('wordnet')
-
-
 f = open(r'C:\Users\USER\Desktop\rithika.txt', errors='ignore')
 raw = f.read()
 raw = raw.lower()
